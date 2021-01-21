@@ -4,10 +4,11 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'info-fy-front',
+    title: 'info-fy',
     script: [
-      { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js' },
-      { src: 'https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js' },
+      { src: 'https://preview.colorlib.com/theme/webmag/js/jquery.min.js' },
+      { src: 'https://preview.colorlib.com/theme/webmag/js/bootstrap.min.js' },
+      { src: 'https://preview.colorlib.com/theme/webmag/js/main.js' },
     ],
     meta: [
       { charset: 'utf-8' },
@@ -15,13 +16,15 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Nunito+Sans:700%7CNunito:300,600' },
+      { rel: 'stylesheet', href: 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' }
     ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '@/assets/css/bootstrap.min.css',
+    '@/assets/css/bootstrap.mintheam.css',
     '@/assets/css/style.css',
   ],
 
